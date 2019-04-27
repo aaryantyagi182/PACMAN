@@ -1,2 +1,2 @@
 # PACMAN
-pacman withbgraphics
+pacman with graphics
