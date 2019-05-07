@@ -51,6 +51,7 @@
  break;
  }
  }
+//Initializing the main window.
  void startscreen(void)
  {
  char ch;
@@ -145,6 +146,7 @@
  closegraph();
  restorecrtmode();
  }
+//Function for game sounds.
  void music(int type)
  {
  float octave[7]={130.81,146.83,164.81,174.61,196,220,246.94};
@@ -167,6 +169,9 @@
  delay(50);
  nosound();
  }}
+
+//Game over screen.
+
  char endscreen()
  {
  char ans;
@@ -216,6 +221,7 @@
  charbelow[j]=250;
  }
  }
+//The map.
  void gamescreen(void)
  {
  int i;
